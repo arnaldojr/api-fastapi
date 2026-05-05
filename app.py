@@ -19,7 +19,7 @@ app = FastAPI(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-ARTIFACTS_DIR = BASE_DIR / "../artifacts"
+ARTIFACTS_DIR = BASE_DIR / "artifacts"
 MODEL_PATH = ARTIFACTS_DIR / "mnist_mlp.pt"
 METADATA_PATH = ARTIFACTS_DIR / "metadata.json"
 FRONTEND_PATH = BASE_DIR / "frontend.html"
